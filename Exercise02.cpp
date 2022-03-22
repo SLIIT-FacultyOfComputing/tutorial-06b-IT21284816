@@ -1,11 +1,11 @@
 #include <iostream>
-using namespace std;
 #include "Box.h"
+using namespace std;
 
 int main() {
-  
+  Box box1;
    // 1. Create a Box type object called box1
-  
+  int length, width, height;
   
    // ======= DO NOT CHANGE THE INPUT ===========
    int height, length, width;
@@ -18,6 +18,9 @@ int main() {
    // ===========================================
   
    // 2. Use setters assign height, length, width throw
+  box1.setLength(length);
+  box1.setWidth(length);
+  box1.setHeight(height);
   
    // === DO NOT CHANGE THE OUTPUT =============
    cout << "Box Height " << box1.getHeight() << endl;
